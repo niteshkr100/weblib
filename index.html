@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">WebLib</a>
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#website">Websites</a></li>
+            <li><a href="#category">Category</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="action">
+            <div class="searchBx">
+                <a href="#"><i class='bx bx-search'></i></a>
+                <input type="text" placeholder="Search Websites">
+                <div>
+                </div>
+            </div class="toggleMenu" onclick="toggleMenu();"></div>
+    </header>
+
+    <div class="banner" id="home">
+        <div class="bg">
+            <div class="content">
+                <h2>Welcome to  world of Websites<br>
+                   </h2>                                                                                                                       
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, necessitatibus.</p>
+                <a href="#" class="btn">Join Now</a>                                                                                          
+            </div>         
+            <!-- <img src="sk.jpg" alt="">                                                                                                                                                                                                              -->
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="contentBx">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam vel minus perspiciatis nisi aspernatur eos fugit doloremque perferendis odit eaque similique tenetur inventore nulla corrupti, mollitia voluptatem, animi commodi, dolorum totam rem quas! Veniam, voluptas laboriosam sit molestias blanditiis temporibus.
+            </p>
+            <a href="#">Read more</a>
+        </div>
+        <img src="icon.png" alt="">
+    </div>
+    
+    <div class="games" id="website">
+        <h2>Websites</h2>
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="pc">Top Sites</li>
+            <li class="list" data-filter="mobile">New Sites</li>
+        </ul>
+        <div class="cardBx">
+            <div class="card" data-item="pc">
+                <img src="facebook.png" alt="">
+                <div class="content">
+                    <h4>Facebook</h4>
+                    <div class="progress-line"><span></span></div>
+                     <div class="info">
+                        <a href="https://facebook.com/">Link</a>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="card" data-item="pc">
+                <img src="flipkart.png" alt="">
+                <div class="content">
+                    <h4>Flipkart</h4>
+                    <div class="progress-line"><span></span></div>
+                     <div class="info">
+                        <a href="#">Link</a>
+                     </div>
+                </div>
+            </div>
+    
+            <div class="card" data-item="pc">
+                <img src="wikipedia.png" alt="">
+                <div class="content">
+                    <h4>Wikipedia</h4>
+                    <div class="progress-line"><span></span></div>
+                     <div class="info">
+                        <a href="#">Link</a>
+                     </div>
+                </div>
+            </div>
+
+            <div class="card" data-item="pc">
+                <img src="instagram.png" alt="">
+                <div class="content">
+                    <h4>Instagram</h4>
+                    <div class="progress-line"><span></span></div>
+                     <div class="info">
+                        <a href="#">Link</a>
+                     </div>
+                </div>
+            </div>
+        
+            <div class="card" data-item="pc">
+                <img src="youtube.png" alt="">
+                <div class="content">
+                    <h4>Youtube</h4>
+                    <div class="progress-line"><span></span></div>
+                     <div class="info">
+                        <a href="https://youtube.com/">Link</a>
+                     </div>
+                </div>
+            </div>
+
+             <div class="card" data-item="mobile">
+                    <img src="netflix.png" alt="">
+                    <div class="content">
+                        <h4>Netflix</h4>
+                        <div class="progress-line"><span></span></div>
+                         <div class="info">
+                            <a href="#">Link</a>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="unacademy.png" alt="">
+                    <div class="content">
+                        <h4>Unacademy</h4>
+                        <div class="progress-line"><span></span></div>
+                         <div class="info">
+                            <a href="https://unacademy.com/">Link</a>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="mycircle11.png" alt="">
+                    <div class="content">
+                        <h4>MyCircle11</h4>
+                        <div class="progress-line"><span></span></div>
+                         <div class="info">
+                            <a href="#">Link</a>
+                         </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="mobile">
+                    <img src="leetcode.png" alt="">
+                    <div class="content">
+                        <h4>LeetCode</h4>
+                        <div class="progress-line"><span></span></div>
+                         <div class="info">
+                            <a href="#">Link</a>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+    <div class="Category" id="category">
+        <h2>Category</h2>
+        <div class="boxBx">
+            
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="coursera.png" alt="">
+                <div class="content">
+                    <h4> <span>50</span>Matches in progress....</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing   iusto eos incidunt animi, repudiandae exercitationem illo similique sit. Id ut aliquam, velit deleniti recusandae asperiores?</p>
+                    <div class="btn">
+                        <a href="#" class="watch">watch</a>
+                        <a href="#" class="join">Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="contact" id="contact">
+            <img src="p.png" alt="">
+            <div class="form">
+                <h1>contact us</h1>
+                <div class="inputBx">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="inputBx">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="Enter Email">
+                </div>
+                <div class="inputBx">
+                    <p>Message</p>
+                    <textarea  placeholder="Type here..."></textarea>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" name="submit">
+                </div>
+          </div>
+    </div>
+          
+    <footer>
+        <div class="info">
+            <a href="#" class="logo">WebLib</a>
+            <p><i class='bx bx-copyright'></i>2022 All Rights Reserved</p>
+            <ul>
+                <li><a href="#"><i class='bx bxl-facebook' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        window.addEventListener('scroll',function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const nav = document.querySelector('.nav');
+            toggleMenu.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+        // fliterable cards
+
+        let list = document.querySelectorAll('.list');
+        let card = document.querySelectorAll('.card');
+
+        for(let i = 0; i<list.length; i++){
+            list[i].addEventListener('click',function(){
+                for(let j=0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+
+                let dataFilter = this.getAttribute('data-filter');
+
+                for(let k=0; k<card.length; k++){
+                    card[k].classList.remove('active');
+                    card[k].classList.add('hide');
+
+                    if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                        card[k].classList.remove('hide');
+                        card[k].classList.add('active');
+                    }
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
